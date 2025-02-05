@@ -107,6 +107,7 @@ fun main() {
             "3" -> gacha.multiRoll(100)
             "4" -> gacha.multiRoll(1000)
             "5" -> gacha.massiveRoll(1000000000)
+            "6" -> gacha.massiveRoll(10000000000)
             "inv" -> gacha.showInventory()
             "exit" -> return
             else -> println("Неверный ввод")
